@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="80" fill="none">
+	<g clip-path="url(#a)">
+		<g filter="url(#b)">
+			<rect width="107%" height="30" x="-10" y="-5" fill="url(#c)" />
+			<animate attributeName="opacity" values="1;0.8;1" dur="10s" repeatCount="indefinite" />
+		</g>
+		<svg viewBox="0 -2 300 300" width="100%" height="300px" preserveAspectRatio="xMaxYMin meet">
+			<g filter="url(#d)">
+				<path
+					d="M276.256 33.232C277.776 30.768 278.656 28.16 278.656 24.96C278.656 21.776 277.776 19.152 276.256 16.688L274.8 17.312C276.144 19.648 276.752 22.352 276.752 24.96C276.752 27.584 276.144 30.288 274.8 32.624L276.256 33.232ZM271.329 23.328L272.337 22.592L271.281 20.768L273.169 19.904L272.785 18.72L270.753 19.184L270.545 17.072H269.281L269.073 19.184L267.041 18.72L266.657 19.904L268.577 20.768L267.489 22.592L268.497 23.328L269.905 21.712L271.329 23.328ZM257.844 21.888C256.724 21.888 255.812 22.8 255.812 23.92C255.812 25.056 256.724 25.968 257.844 25.968C258.98 25.968 259.892 25.056 259.892 23.92C259.892 22.8 258.98 21.888 257.844 21.888ZM245.668 30.224C247.716 30.224 249.076 28.592 249.076 25.536C249.076 23.952 248.436 22.16 247.62 20.832L245.412 21.696C246.34 23.152 246.836 24.416 246.836 25.984C246.836 27.408 246.388 28.32 245.556 28.32C244.772 28.32 244.26 27.76 244.26 26.496C244.26 25.68 244.34 25.136 244.468 24.112H241.972C242.1 25.136 242.18 25.68 242.18 26.496C242.18 27.872 241.716 28.32 240.948 28.32C240.196 28.32 239.668 27.392 239.668 25.632C239.668 24.08 239.988 23.088 240.9 21.632L238.756 20.832C237.908 22.176 237.316 23.552 237.316 25.472C237.316 28.528 238.532 30.224 240.628 30.224C241.684 30.224 242.708 29.776 243.188 28.544H243.252C243.732 29.776 244.628 30.224 245.668 30.224ZM228.516 21.888C227.396 21.888 226.484 22.8 226.484 23.92C226.484 25.056 227.396 25.968 228.516 25.968C229.652 25.968 230.564 25.056 230.564 23.92C230.564 22.8 229.652 21.888 228.516 21.888ZM218.228 33.232L219.7 32.624C218.356 30.288 217.732 27.584 217.732 24.96C217.732 22.352 218.356 19.648 219.7 17.312L218.228 16.688C216.724 19.152 215.844 21.776 215.844 24.96C215.844 28.16 216.724 30.768 218.228 33.232ZM207.605 18.656C207.749 19.232 207.909 19.936 208.005 20.448C208.341 22.24 208.869 24.4 209.493 26.016C210.165 27.728 211.413 29.68 212.581 30.672L213.813 28.8C212.581 27.936 211.557 26.32 210.901 24.592C210.197 22.72 209.749 20.304 209.541 18.016L207.605 18.656Z"
+					fill="white"
+				/>
+				<!-- Hover animation -->
+				<animateTransform
+					attributeName="transform"
+					attributeType="XML"
+					type="translate"
+					values="0 0; 0 2; 0 0; 0 -2; 0 0"
+					dur="10s"
+					keySplines="0.5, 0, 0.5, 1; 0.5, 0, 0.5, 1; 0.5, 0, 0.5, 1; 0.5, 0, 0.5, 1"
+					repeatCount="indefinite"
+				/>
+			</g>
+		</svg>
+	</g>
+	<defs>
+		<filter
+			id="b"
+			width="140%"
+			height="130"
+			x="-60"
+			y="-55"
+			color-interpolation-filters="sRGB"
+			filterUnits="userSpaceOnUse"
+		>
+			<feFlood flood-opacity="0" result="BackgroundImageFix" />
+			<feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+			<feGaussianBlur result="effect1_foregroundBlur_306_159" stdDeviation="25" />
+		</filter>
+		<filter
+			id="d"
+			width="79.052"
+			height="24.544"
+			x="203.344"
+			y="16.688"
+			color-interpolation-filters="sRGB"
+			filterUnits="userSpaceOnUse"
+		>
+			<feFlood flood-opacity="0" result="BackgroundImageFix" />
+			<feColorMatrix
+				in="SourceAlpha"
+				result="hardAlpha"
+				values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+			/>
+			<feOffset dy="4" />
+			<feGaussianBlur stdDeviation="2" />
+			<feComposite in2="hardAlpha" operator="out" />
+			<feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+			<feBlend in2="BackgroundImageFix" result="effect1_dropShadow_306_159" />
+			<feBlend in="SourceGraphic" in2="effect1_dropShadow_306_159" result="shape" />
+		</filter>
+		<linearGradient
+			id="c"
+			x1="-10"
+			x2="107%"
+			y1="3.013"
+			y2="3.013"
+			gradientUnits="userSpaceOnUse"
+		>
+			<stop stop-color="#FF008B" />
+			<stop offset=".245" stop-color="#D2961F" />
+			<stop offset=".489" stop-color="#79BC5F" />
+			<stop offset=".724" stop-color="#407BD5" />
+			<stop offset="1" stop-color="#AD00FE" />
+		</linearGradient>
+		<clipPath id="a">
+			<rect width="100%" height="80" fill="#fff" />
+		</clipPath>
+	</defs>
+</svg>
